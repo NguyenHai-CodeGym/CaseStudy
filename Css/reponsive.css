@@ -1,7 +1,7 @@
 /* display: flex;
   justify-content: space-between; */
 
-@media only screen and (max-width: 812px) {
+@media only screen and (max-width: 1024px) {
   /* header-top */
   .container .header-top .top {
     display: none;
@@ -112,7 +112,15 @@
   .header-right img {
     display: none;
   }
-  .navmenu {
-    
+
+  .fas {
+    display: block;
+    margin-left: 79%;
+    font-size: 150%;
+    color: white;
+  }
+
+  .nav__mobiles-list {
+    margin-left: 31%;
   }
 }

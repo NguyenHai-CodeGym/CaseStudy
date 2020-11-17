@@ -54,13 +54,31 @@
     <!--menu -->
     <div class="navbar">
       <div class="navmenu">
-        <a href="#">Trang Chủ</a>
-        <a href="#">Sản Phẩm</a>
-        <a href="#">Sự Kiện</a>
-        <a href="#">Giới Thiệu</a>
+          <ul class="navlist">
+            <li class="list"><a href="#">Trang Chủ</a></li>
+            <li class="list"><a href="#">Sản Phẩm</a></li>
+            <li class="list"><a href="#">Sự Kiện</a></li>
+            <li class="list"><a href="#">Giới Thiệu</a></li>
+          </ul>
       </div>
-      <i class="fas fa-bars" style="color: white;"></i>
+      <label for="nav-mobile-input" class="nav__bars-btn">
+        <i class="fas fa-bars" style="color: white;"></i>
+      </label>
         </div>
+    <input type="checkbox" hidden name="" class="nav__input" id="nav-mobile-input">
+    <label for="nav-mobile-input" class="nav__overlay"></label>
+    <div class="nav__mobile">
+      <label for="nav-mobile-input" class="nav__mobiles-close">
+        <i class="fas fa-times"></i>
+      </label>
+      <ul class="nav__mobiles-list">
+        <li class="nav__mobiles-link"><a href="#">Trang Chủ</a></li>
+        <li class="nav__mobiles-link"><a href="#">Sản Phẩm</a></li>
+        <li class="nav__mobiles-link"><a href="#">Sự Kiện</a></li>
+        <li class="nav__mobiles-link"><a href="#">Giới Thiệu</a></li>
+        <li class="nav__mobiles-link"><a href="#">Login</a></li>
+      </ul>
+    </div>
     <!-- body -->
     <body>
       <div class="body-container">
